@@ -14,7 +14,7 @@ public class Main {
             {
                 Hijacker hi = new Hijacker(i);
                 hi.hijack();
-                Thread.sleep(2500); //safety
+                Thread.sleep(1000); //safety
             }
         } catch (IOException | AWTException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
