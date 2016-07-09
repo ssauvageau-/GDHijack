@@ -51,7 +51,7 @@ public class Hijacker {
         rob.delay(100);
         rob.mouseMove(select_X, select_Y);
         rob.delay(1000);
-        rob.mouseMove(base_X, base_Y + (20 * modID));
+        rob.mouseMove(base_X, base_Y + (mod_height * modID));
         rob.delay(100);
         rob.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
         
