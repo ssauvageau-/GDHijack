@@ -18,4 +18,6 @@ Then run the code however you like to run Java code. Make sure you don't have an
 
 Am I making a UI for this? Hellno.
 
+Video demonstration: https://youtu.be/XLqRkO6K7wo
+
 Oh if the Asset Manager wants to ask you about removing unallocated resources or whatever, this program can't handle that. It won't crash and it will compile whatever mods it has left, but it won't initiate the compilation of the mod in question. I'm thinking about how to handle that.
