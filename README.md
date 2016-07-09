@@ -6,7 +6,7 @@ This code was written for a 1920x1080 monitor at 100% magnification (standard) o
 
 # Usage
 
-Edit the "int[] mods = {5, 6};" line (line 11) in Main.java to the array of whichever mods you want to automatically compile via the Asset Manager. There's probably a limit to the highest mod ID, but I don't have any clue what it is. Should work up to about 40 at least. A mod ID in this program is defined as its placement on the Mod->Select dropdown menu, with 0 being None, 1 being immediately after None, etc. 
+Edit the "int[] mods = {5, 6};" line (line 11) in Main.java to an array of whichever mods you want to automatically compile via the Asset Manager. There's probably a limit to the highest mod ID, but I don't have any clue what it is. Should work up to about 40 at least. A mod ID in this program is defined as its placement on the Mod->Select dropdown menu, with 0 being None, 1 being immediately after None, etc. 
 
 Then run the code however you like to run Java code.
 
